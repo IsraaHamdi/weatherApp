@@ -19,7 +19,7 @@ class App extends Component {
         <h1 className="text-center mt-5 " style={{color: "blue"}}>Weather App</h1>
         <Router>
             <div className="text-center ">
-            <Link to="/WeatherLocation"  >
+            <Link to="/"  >
               <button className=" btn btn-outline-primary ms-2">Weather Location</button>
             </Link>
             <Link to="/DailyWeather" >
