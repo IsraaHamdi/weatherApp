@@ -1,0 +1,36 @@
+.all-container {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    margin-right: 1vw;
+    border: 1px solid lightgrey;
+    padding: 2vw;
+}
+.date {
+    display: block;
+    height: 7vh;
+}
+.all img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+@media (max-width:768px) {
+    .all-container {
+        flex-direction: column;
+    }
+    .all {
+        width: 100%; 
+        margin-bottom: 1vh;
+    }
+    .date { height: 3vh;}
+    .all img {
+        max-width: 50%;
+    }
+}
